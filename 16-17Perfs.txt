@@ -1,0 +1,183 @@
+﻿Best Individual Game Performances for 16-17
+
+
+
+
+
+
+       High Game Scoring                High Game Rebounds 
+   Player        team  pts       Player          team  reb
+booker,devin       pho   70     whiteside,hassan   mia   25
+thompson,klay      gol   60     jordan,deandre     cli   25
+lillard,damian     por   59     gobert,rudy        uta   25
+westbrook,russel   okl   58     gobert,rudy        uta   24
+westbrook,russel   okl   57     valanciunas,jona   tor   23
+cousins,demarcus   sac   55     jordan,deandre     cli   23
+harden,james       hou   53     howard,dwight      atl   23
+wall,john          was   52     howard,dwight      atl   23
+thomas,isaiah      bos   52     drummond,andre     det   23
+butler,jimmy       chi   52     cousins,demarcus   nor   23
+
+
+  High Game Assists              High Game Steals              High Game Blocks 
+ Player           team as    Player           team st    Player           team bk
+westbrook,russel   okl 22   green,draymond     gol 10   lopez,robin        chi  8
+wall,john          was 20   smart,marcus       bos  8   lopez,brook        bro  8
+paul,chris         cli 20   wall,john          was  7   gobert,rudy        uta  8
+westbrook,russel   okl 19   wade,dwyane        chi  7   whiteside,hassan   mia  7
+wall,john          was 19   tucker,p.j.        pho  7   porzingis,krista   nyk  7
+wall,john          was 19   smith,ish          det  7   drummond,andre     det  7
+rubio,ricky        min 19   mahinmi,ian        was  7   antetokounmpo,gi   mil  7
+westbrook,russel   okl 18   irving,kyrie       cle  7   turner,myles       ind  6
+wall,john          was 18   davis,anthony      nor  7   tavares,edy        cle  6
+paul,chris         cli 18   curry,stephen      gol  7   porzingis,krista   nyk  6
+
+
+  Triple Doubles  
+Player             team pts reb  as  st  bk  to
+antetokounmpo,gi    mil  10  11  10   0   1   4
+antetokounmpo,gi    mil  15  12  11   2   4   3
+antetokounmpo,gi    mil  21  10  10   5   3   4
+batum,nicolas       cha  20  11  10   1   1   2
+bledsoe,eric        pho  25  10  13   2   0   3
+brogdon,malcolm     mil  15  11  12   0   0   3
+butler,jimmy        chi  18  10  10   1   0   1
+butler,jimmy        chi  19  10  10   2   0   6
+cousins,demarcus    sac  22  12  12   1   2   5
+cousins,demarcus    sac  25  12  10   1   3   9
+durant,kevin        gol  19  11  10   0   0   4
+frazier,tim         nor  14  11  11   5   1   1
+gasol,marc          mem  18  10  10   0   0   2
+gasol,marc          mem  28  11  11   2   2   3
+green,draymond      gol   4  12  10  10   5   2
+green,draymond      gol  11  12  13   1   1   4
+green,draymond      gol  11  13  11   1   5   0
+green,draymond      gol  12  12  10   4   2   2
+green,draymond      gol  15  10  13   0   0   5
+griffin,blake       cli  26  11  11   1   0   2
+harden,james        hou  15  11  14   1   0   5
+harden,james        hou  18  12  13   2   0   9
+harden,james        hou  22  11  11   1   1   7
+harden,james        hou  23  10  10   0   0   5
+harden,james        hou  23  10  10   3   0   6
+harden,james        hou  24  11  13   1   0   6
+harden,james        hou  24  12  15   1   0   8
+harden,james        hou  25  11  13   0   0   7
+harden,james        hou  26   9  12   4   1  11
+harden,james        hou  26  12  14   3   0   4
+harden,james        hou  27  10  12   4   1   4
+harden,james        hou  29   6  15   2   0  12
+harden,james        hou  29  11  13   0   0   4
+harden,james        hou  29  15  13   2   1   7
+harden,james        hou  30  13  10   5   1   6
+harden,james        hou  35  11  15   1   0  10
+harden,james        hou  38  10  11   1   1   4
+harden,james        hou  38  12  12   0   1   4
+harden,james        hou  40  10  10   2   0   8
+harden,james        hou  40  10  11   2   2  10
+harden,james        hou  40  12  10   2   0   6
+harden,james        hou  40  15  10   0   0   4
+harden,james        hou  41  14  11   2   0   5
+harden,james        hou  51  13  13   2   1   5
+harden,james        hou  53  16  17   0   0   8
+james,lebron        cle  16  11  12   0   0   2
+james,lebron        cle  18  13  15   0   3   6
+james,lebron        cle  19  11  14   0   1   4
+james,lebron        cle  24  12  13   0   1   4
+james,lebron        cle  24  13  11   2   1   5
+james,lebron        cle  26  10  12   2   0   6
+james,lebron        cle  26  10  13   1   0   5
+james,lebron        cle  28  13  10   1   1   4
+james,lebron        cle  29  13  10   2   0   3
+james,lebron        cle  31  10  13   3   0   3
+james,lebron        cle  32  16  10   1   0   3
+james,lebron        cle  41  16  11   2   1   1
+jokic,nikola        den  13  14  10   1   1   3
+jokic,nikola        den  17  14  11   0   0   2
+jokic,nikola        den  17  21  12   2   0   5
+jokic,nikola        den  19  16  10   0   1   3
+jokic,nikola        den  20  13  11   1   0   2
+jokic,nikola        den  26  13  10   0   0   2
+lawson,ty           sac  22  11  12   1   0   3
+lowry,kyle          tor  15  11  11   1   0   2
+paul,chris          cli  26  10  13   2   1   4
+payton,elfrid       orl  13  10  13   0   1   1
+payton,elfrid       orl  14  11  10   0   0   3
+payton,elfrid       orl  16  11  10   1   0   2
+payton,elfrid       orl  20  11  11   1   0   2
+payton,elfrid       orl  22  14  14   2   2   2
+randle,julius       lak  13  18  10   1   0   3
+randle,julius       lak  17  14  10   0   0   3
+randle,julius       lak  19  14  11   1   0   2
+rondo,rajon         chi  15  11  12   3   1   3
+rubio,ricky         min  11  13  10   3   0   4
+towns,karl-antho    min  15  11  10   0   2   3
+wall,john           was  19   8  11   3   1  11
+westbrook,russel    okl  12  13  13   2   0   3
+westbrook,russel    okl  17  12  14   2   0   1
+westbrook,russel    okl  17  13  15   1   1   5
+westbrook,russel    okl  17  18  17   3   0   6
+westbrook,russel    okl  18  11  14   0   2   5
+westbrook,russel    okl  20  12  10   1   1   4
+westbrook,russel    okl  21  11  12   2   0  10
+westbrook,russel    okl  23  13  13   2   0   3
+westbrook,russel    okl  24  10  16   1   0   2
+westbrook,russel    okl  24  13  12   2   1   6
+westbrook,russel    okl  25  12  19   2   1   5
+westbrook,russel    okl  26  11  22   2   1   5
+westbrook,russel    okl  27  10  10   3   0   8
+westbrook,russel    okl  27  12  10   1   1   8
+westbrook,russel    okl  27  15  13   2   2  10
+westbrook,russel    okl  27  18  14   2   0   7
+westbrook,russel    okl  28  17  12   1   0  10
+westbrook,russel    okl  29  12  11   4   0   7
+westbrook,russel    okl  29  17  11   0   0   7
+westbrook,russel    okl  30  11  13   1   0   3
+westbrook,russel    okl  31  11  15   2   0   7
+westbrook,russel    okl  32  13  12   1   1   4
+westbrook,russel    okl  32  15  12   0   0   8
+westbrook,russel    okl  32  17  11   3   0   5
+westbrook,russel    okl  33  11  14   2   2   5
+westbrook,russel    okl  33  12  16   1   1   7
+westbrook,russel    okl  35  14  11   2   0   5
+westbrook,russel    okl  36  11  10   4   0   7
+westbrook,russel    okl  36  12  18   0   1   7
+westbrook,russel    okl  37  13  10   2   0   6
+westbrook,russel    okl  38  10  10   4   1   6
+westbrook,russel    okl  38  13  12   3   0   5
+westbrook,russel    okl  38  14  12   3   1   6
+westbrook,russel    okl  39  11  13   0   0   5
+westbrook,russel    okl  40  13  10   3   0   8
+westbrook,russel    okl  41  11  11   1   0   9
+westbrook,russel    okl  41  12  16   0   0   2
+westbrook,russel    okl  43  11  10   0   0   8
+westbrook,russel    okl  45  11  11   1   0   4
+westbrook,russel    okl  47  11   8   1   0  11
+westbrook,russel    okl  50  16  10   1   0   2
+westbrook,russel    okl  51  13  10   2   0   5
+westbrook,russel    okl  57  13  11   3   0   7
+
+NOTE: yes the triple doubles with TOs is there for fun.
+
+  Double Doubles  
+Player                      #DDs
+ 1) harden,james         64
+ 2) towns,karl-antho     62
+ 3) westbrook,russel     62
+ 4) whiteside,hassan     58
+ 5) gobert,rudy          56
+ 6) howard,dwight        53
+ 7) davis,anthony        50
+ 8) wall,john            50
+ 9) drummond,andre       49
+10) cousins,demarcus     46
+11) james,lebron         42
+12) love,kevin           41
+13) jordan,deandre       41
+14) jokic,nikola         39
+15) vucevic,nikola       38
+16) gortat,marcin        36
+17) antetokounmpo,gi     33
+18) valanciunas,jona     30
+19) rubio,ricky          25
+20) paul,chris           24

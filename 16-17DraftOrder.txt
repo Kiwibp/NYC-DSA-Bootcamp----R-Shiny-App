@@ -1,0 +1,36 @@
+﻿ Draft Positioning through 5/23/17
+
+
+
+       Team              W  L +/- PCT
+ 1 BrooklynNets         20 62 -21 .244
+ 2 PhoenixSuns          24 58 -17 .293
+ 3 LALakers             26 56 -15 .317
+ 4 Philadelphia76ers    28 54 -13 .341
+ 5 OrlandoMagic         29 53 -12 .354
+ 6 MinnesotaT-wolves    31 51 -10 .378
+ 7 NYKnicks             31 51 -10 .378
+ 8 SacramentoKings      32 50  -9 .390
+ 9 DallasMavericks      33 49  -8 .402
+10 NOrleansPelicans     34 48  -7 .415
+11 CharlotteHornets     36 46  -5 .439
+12 DetroitPistons       37 45  -4 .451
+13 DenverNuggets        40 42  -1 .488
+14 ChicagoBulls         41 41   0 .500
+         Lottery
+15 MiamiHeat            41 41   0 .500
+16 PortlandTrailBlazers 41 41   0 .500
+17 IndianaPacers        42 40   1 .512
+18 MilwaukeeBucks       42 40   1 .512
+19 AtlantaHawks         43 39   2 .524
+20 MemphisGrizzlies     43 39   2 .524
+21 OklahomaCityThunder  47 35   6 .573
+22 WashingtonWizards    49 33   8 .598
+23 ClevelandCavaliers   51 31  10 .622
+24 LAClippers           51 31  10 .622
+25 TorontoRaptors       51 31  10 .622
+26 UtahJazz             51 31  10 .622
+27 BostonCeltics        53 29  12 .646
+28 HoustonRockets       55 27  14 .671
+29 SanAntonioSpurs      61 21  20 .744
+30 GSWarriors           67 15  26 .817

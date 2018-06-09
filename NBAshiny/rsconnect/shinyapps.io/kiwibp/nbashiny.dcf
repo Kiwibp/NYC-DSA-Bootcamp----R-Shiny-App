@@ -1,0 +1,10 @@
+name: nbashiny
+title:
+account: kiwibp
+server: shinyapps.io
+appId: 200315
+bundleId: 944919
+url: https://kiwibp.shinyapps.io/nbashiny/
+when: 1503008909.9332
+asMultiple: FALSE
+asStatic: FALSE

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# This is the user-interface definition of a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\n\nlibrary(shiny)\n\ntest = as.list(teamPER_and_winningPerc$Tm)\nnames(test) = teamPER_and_winningPerc$Tm\n\nshinyUI(fluidPage(\n\n    # Application title\n    titlePanel(strong(h1(\"NBA 16-17 Season Analysis\", align=\"center\"))\n               \n    ), \n  \n    sidebarLayout(\n      sidebarPanel(checkboxGroupInput(\"teams_checkbox\", \n                                      label=h3(\"Select Teams (Team PER ~ Team Winning %)\"), \n                                      choices= test, selected = test[1])\n      ),\n      \n    # Show a plot of the generated distribution\n      mainPanel(\n        img(src=\"nba.png\", height=100, width=100),\n        helpText(h4(\"Players Advanced Stats\"), \n                 'TS%: True Shooting Percentage\n                   AST: Assist Ratio \n                   TO: Turnover Ratio \n                   USG: Usage Rate \n                   ORR: Offensive rebound rate\n                   DRR: Defensive rebound rate\n                   REBR: Rebound Rate \n                   PER: Player Efficiency Rating \n                   VA: Value Added \n                   EWA: Estimated Wins Added'\n        ),\n        tabsetPanel(\n          tabPanel(\"Players Stats\", dataTableOutput(\"players_table\")), \n          tabPanel(\"Players Advanced Stats\", dataTableOutput(\"hollinger_table\")),\n          tabPanel(\"Teams Stats\", dataTableOutput(\"teams_table\")),\n          tabPanel(\"Team PER ~ Team Winning %\")\n        ),\n        plotOutput(\"scatterplot\")\n      )\n    )\n))\n",
+    "created" : 1507300903930.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1390272291",
+    "id" : "346452EB",
+    "lastKnownWriteTime" : 1502332557,
+    "last_content_update" : 1502332557,
+    "path" : "C:/Users/Keenan/datascience/nycdsa/DA_&_DV_with_R/NBA analysis/NBAshiny/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

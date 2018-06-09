@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# biocLite(\"EBImage\")\nlibrary(EBImage)\nlibrary(dplyr)\nlibrary(ggplot2)\nlibrary(ggimage)\nlibrary(stringr)\nlibrary(tidyverse)\n\n#install.packages(c(\"EBImage\"), repos = getOption(\"https://bioconductor.org/biocLite.R\"))\n\nRD_Players = read.table(\"16-17RD_Players.txt\", header = TRUE, stringsAsFactors = FALSE, fill = FALSE)\nRD_Team = read.table(\"16-17RD.Team.txt\", header = TRUE, stringsAsFactors = FALSE, fill = FALSE)\n\nhollinger_stats = read.csv('hollinger_stats.csv', header = TRUE, stringsAsFactors = FALSE, fill = FALSE)\nhollinger_stats = hollinger_stats[,-c(1)]\nhollinger_stats$TEAM = trimws(hollinger_stats$TEAM, which = c(\"both\"))\n\nseason_advanced_stats = read.csv('16-17AdvancedStats.csv', header = TRUE, stringsAsFactors = FALSE, fill = FALSE)\nseason_advanced_stats$Player = str_to_lower(season_advanced_stats$Player)\nseason_advanced_stats$Player = gsub(\"\\\\\\\\.*\", \"\", season_advanced_stats$Player)\n\n#save these pipelines as csv's, comment out, read back in.  cut out dplyr\nteam_PER = season_advanced_stats %>%\n  filter(Tm != \"TOT\" & MP > 200) %>%\n  select(Player, Pos, Tm, MP, PER) %>%\n  group_by(Tm) %>%\n  summarise(team_PER = sum(PER)) \nteam_PER\n\nteam_winning_perc = RD_Team %>%\n  select(team, won, lost) %>%\n  group_by(team) %>%\n  mutate(team_win_percentage = won/sum(won, lost)) %>%\n  arrange(team)\nteam_winning_perc$team = c(\"ATL\", \"BOS\", \"BRK\", \"CHI\", \"CHO\", \"CLE\", \"DAL\", \"DEN\", \"DET\", \"GSW\", \"HOU\", \"IND\", \"LAC\", \"LAL\", \"MEM\", \"MIA\", \"MIL\", \"MIN\", \"NOP\", \"NYK\", \"OKC\", \"ORL\", \"PHI\", \"PHO\", \"POR\", \"SAC\", \"SAS\", \"TOR\", \"UTA\", \"WAS\")\nnames(team_winning_perc)[names(team_winning_perc) == 'team'] = 'Tm'\nteam_winning_perc\n\nteamPER_and_winningPerc = merge(team_winning_perc, team_PER, by=c('Tm'), all=TRUE)\n\n \nimages = c(\"www/atlanta.png\", \"www/boston.png\", \"www/brooklyn.png\", \"www/charlotte.png\",\n           \"www/chicago.png\", \"www/cleveland.png\", \"www/dallas.png\", \"www/denver.png\",\n           \"www/detroit.png\", \"www/goldenstate.png\", \"www/houston.png\", \"www/indiana.png\",\n           \"www/la_c.png\", \"www/la_l.png\", \"www/memphis.png\", \"www/miami.png\",\n           \"www/milwaukee.png\", \"www/minnesota.png\", \"www/neworleans.png\", \"www/newyork.png\", \n           \"www/okcity.png\", \"www/orlando.png\", \"www/philadelphia.png\", \"www/phoenix.png\", \n           \"www/portland.png\", \"www/sacramento.png\", \"www/sanantonio.png\", \"www/toronto.png\", \n           \"www/utah.png\", \"www/washington.png\")\n\nteamPER_and_winningPerc$images = images\n\n# #static version. adjusted in server.R for reactivity\n# ggplot(teamPER_and_winningPerc, aes(x=team_PER, y=team_win_percentage, label= Tm)) +\n#   geom_image(aes(image=images), size=.05, by='height')\n\ntest = as.list(teamPER_and_winningPerc$Tm)\nnames(test) = teamPER_and_winningPerc$Tm\n\n",
+    "created" : 1507300923366.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3467715683",
+    "id" : "662C0F74",
+    "lastKnownWriteTime" : 1503008813,
+    "last_content_update" : 1503008813,
+    "path" : "C:/Users/Keenan/datascience/nycdsa/DA_&_DV_with_R/NBA analysis/NBAshiny/global.R",
+    "project_path" : "global.R",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

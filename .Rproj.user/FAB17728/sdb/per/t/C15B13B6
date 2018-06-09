@@ -1,0 +1,17 @@
+{
+    "contents" : "Inspired by:\nhttps://www.stat.berkeley.edu/~aldous/Research/Ugrad/Stanley_Yang%20_Thesis.pdf\n\nquestions to answer:\n1.what is the correlation between minutes and primary stats?(done)\n2.what is the mean and SD of primary stats. Per team? Per position? (done)\n3.what players have the best PER's in the league per team? per position? \nper postion on team? (done)\n4.what is each teams total PER?(done)\n5.what are the central tendencies of primary stats? Per team? Per Position?(done)\n6.who were the league leader in important categories?(done)\n7.what was each teams winning %?(done)\n8.What is the correlation between team win ratio and team PER?(done)\n\n\n\n\n\n\n\n\n\n",
+    "created" : 1499264560838.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2953793883",
+    "id" : "C15B13B6",
+    "lastKnownWriteTime" : 1500311367,
+    "path" : "C:/Users/Keenan/datascience/nycdsa/DA_&_DV_with_R/NBA analysis/questions_to_answer",
+    "project_path" : "questions_to_answer",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "text"
+}

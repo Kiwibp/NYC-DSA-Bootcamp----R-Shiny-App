@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\n# This is the server logic for a Shiny web application.\n# You can find out more about building applications with Shiny here:\n#\n# http://shiny.rstudio.com\n#\n\nlibrary(shiny)\nlibrary(ggplot2)\n\n\nshinyServer(function(input, output) {\n  \n  output$players_table = renderDataTable({RD_Players[,1:20]})\n  output$hollinger_table = renderDataTable({hollinger_stats})\n  output$teams_table = renderDataTable({RD_Team[,1:20]})\n  \n\n  output$scatterplot = renderPlot({\n    # cat(input$teams_checkbox)\n    ggplot(teamPER_and_winningPerc[teamPER_and_winningPerc$Tm %in% input$teams_checkbox,], aes(x=team_PER, y=team_win_percentage, label= Tm)) +\n      geom_image(aes(image = images), size=.05, by='height')#what should I adjust here?\n  })\n\n\n})\n",
+    "created" : 1507300917368.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3521027161",
+    "id" : "33DD4029",
+    "lastKnownWriteTime" : 1502332780,
+    "last_content_update" : 1502332780,
+    "path" : "C:/Users/Keenan/datascience/nycdsa/DA_&_DV_with_R/NBA analysis/NBAshiny/server.R",
+    "project_path" : "server.R",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

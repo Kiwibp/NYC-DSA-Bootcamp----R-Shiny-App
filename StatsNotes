@@ -1,0 +1,85 @@
+Notes about the "raw stats"
+
+I realize that there are many people who may have different needs for stats in a raw format. I am trying to use the format that helps the most people.
+
+The stats will be for all players in the league in alphabetical format. Unfortunately, I have to use 'preformatting' to get it to look good.
+
+NOTE As of the 06-07 season, I'll have one raw data file for player's cumulative stats & a separate one with a line for each team that they played. each team they've played for that year.
+
+NOTE Due to parsing issues, I no longer get flagrant fouls
+
+The stats are currently in the following format.
+
+player team pos gp min fgm fga 3m 3a ftm fta or tr as st to bk pf tc ej ff pts
+
+where:  player = player name  (either: last,first -or- last)
+	team   = team name (3 letter abrev)
+	pos    = player's position (PG, SG, SF, PF, C or ??)
+	gp     = games played
+	min    = total minutes played
+	fgm    = field goals made
+	fga    = field goals attempted
+	3m     = threes made
+	3a     = threes attempted
+	ftm    = free throws made
+	fta    = free throws attempted
+	or     = offensive rebounds
+	tr     = total rebounds
+	as     = assists
+	st     = steals
+	to     = turnovers
+	bk     = blocks
+	ba     = blocked attempts (Note, there is little quality here, so far)
+	pf     = personal fouls
+	dq     = disqualifications
+	pts    = total points
+	tc     = technicals
+	sta    = games started
+	
+Notes about the "raw stats"
+
+The stats will be for each team in the following format:
+
+team won lost min fgm fga 3m 3a ftm fta or tr as st to bk pf tc ej ff pts
+
+where:  team   = team name 
+	won    = games won
+	lost   = games lost
+	min    = total minutes played
+	fgm    = field goals made
+	fga    = field goals attempted
+	3m     = threes made
+	3a     = threes attempted
+	ftm    = free throws made
+	fta    = free throws attempted
+	or     = offensive rebounds
+	tr     = total rebounds
+	as     = assists
+	st     = steals
+	to     = turnovers
+	bk     = blocks
+	pf     = personal fouls
+	tc     = technicals
+	ej     = ejections
+	ff     = flagrant fouls
+	pts    = total points
+	
+
+Note: This page is updated weekly on Thursdays. Players must have played at least 70 minutes this season to appear on this page. Percentage of Workload Stats
+
+Percentage of Workload = (Players Avg. Stat)/(Team’s Avg Stat)
+
+Other Advanced Statistics
+eFG% – Adjusted field goal percentage based on the idea that 3 pointers are 50% more valuable than 2 point field goals. TS% – True Shooting Percentage, adjusted for 3-pointers and free throws. USG% – Percentage of offensive percentage where a player contributes while on the floor. O-Rt – Points Contributed to by Player Per 100 Possessions D-Rt – Points Allowed by Player Per 100 Possessions.
+
+Team Advanced Statistics
+PF – Player Fouls Per Game O-Rt – Points Per 100 Possessions D-Rt – Points Allowed Per 100 Possessions. Net-Rt – O-Rating minus D-Rating eFG% – Adjusted field goal percentage based on the idea that 3 pointers are 50% more valuable than 2 point field goals. TS% – True Shooting Percentage, adjusted for 3-pointers and free throws. Ast% – Percentage of field goals made from an assist Reb% – Percentage of missed shots rebounded by team AST/TO – Assists Divided by Turnovers TORatio – Teams Plays per game ending in a turnover
+
+Player Touches Advanced Stats
+TCH/G – Number of times a player touches the ball per game. Tch/Min – Number of touches per minute played PossTm – Average time per game where the player possesses the ball Post – Touches in the post Paint – Touches in the paint PPG – Points Per Game Pts/Tch – Points Scored Divided by Touches Per Game FPPG – Fantasy Points Per Game FP/Tch – Fantasy Points Per Game Divided by Touches Per Game
+
+PER attempts to assign a value to each player to demonstrate his worth on a per-minute basis. PER awards points for positive plays and subtracts for negative ones. 
+What is PER?
+PER is a metric that aims to measure a player’s effectiveness with a single number. It
+takes into account almost all statistics kept by the NBA, and weighs the player’s
+production by minutes played per game, and number of team possessions per game.

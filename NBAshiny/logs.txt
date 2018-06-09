@@ -1,0 +1,165 @@
+2017-07-28T15:14:51.880083+00:00 shinyapps[200315]: Server version: 1.5.0-3
+2017-07-28T15:14:51.880107+00:00 shinyapps[200315]: LANG: en_US.UTF-8
+2017-07-28T15:14:51.880110+00:00 shinyapps[200315]: R version: 3.4.1
+2017-07-28T15:14:51.880112+00:00 shinyapps[200315]: shiny version: 1.0.3
+2017-07-28T15:14:51.880112+00:00 shinyapps[200315]: knitr version: NA
+2017-07-28T15:14:51.880112+00:00 shinyapps[200315]: rmarkdown version: NA
+2017-07-28T15:14:51.880112+00:00 shinyapps[200315]: jsonlite version: 1.5
+2017-07-28T15:14:51.880113+00:00 shinyapps[200315]: RJSONIO version: NA
+2017-07-28T15:14:51.880113+00:00 shinyapps[200315]: htmltools version: 0.3.6
+2017-07-28T15:14:52.012484+00:00 shinyapps[200315]: Using jsonlite for JSON processing
+2017-07-28T15:14:52.117730+00:00 shinyapps[200315]: Shiny cannot use on-disk bookmarking
+2017-07-28T15:14:52.117886+00:00 shinyapps[200315]: 
+2017-07-28T15:14:52.117890+00:00 shinyapps[200315]: Starting R with process ID: '19'
+2017-07-28T15:14:52.173044+00:00 shinyapps[200315]: 
+2017-07-28T15:14:52.173046+00:00 shinyapps[200315]: Listening on http://127.0.0.1:40823
+2017-07-28T15:14:59.452441+00:00 shinyapps[200315]: Stack trace (innermost first):
+2017-07-28T15:14:59.452443+00:00 shinyapps[200315]:     101: <reactive:plotObj>
+2017-07-28T15:14:59.452442+00:00 shinyapps[200315]:     111: renderPlot [/srv/connect/apps/nbashiny/server.R#20]
+2017-07-28T15:14:59.452443+00:00 shinyapps[200315]:      90: plotObj
+2017-07-28T15:14:59.452444+00:00 shinyapps[200315]:      89: origRenderFunc
+2017-07-28T15:14:59.452444+00:00 shinyapps[200315]:      88: output$scatterplot
+2017-07-28T15:14:59.452446+00:00 shinyapps[200315]:      10: tryCatchOne
+2017-07-28T15:14:59.452449+00:00 shinyapps[200315]:       1: local
+2017-07-28T15:14:59.452445+00:00 shinyapps[200315]:      12: fn
+2017-07-28T15:14:59.452447+00:00 shinyapps[200315]:       7: connect$retry
+2017-07-28T15:14:59.452445+00:00 shinyapps[200315]:      11: doTryCatch
+2017-07-28T15:14:59.452449+00:00 shinyapps[200315]:       3: eval
+2017-07-28T15:14:59.452445+00:00 shinyapps[200315]:      13: runApp
+2017-07-28T15:14:59.452447+00:00 shinyapps[200315]:       6: eval
+2017-07-28T15:14:59.452448+00:00 shinyapps[200315]:       5: eval
+2017-07-28T15:14:59.452448+00:00 shinyapps[200315]:       4: eval
+2017-07-28T15:14:59.452447+00:00 shinyapps[200315]:       8: tryCatch
+2017-07-28T15:14:59.447910+00:00 shinyapps[200315]: Warning: Error in geom_image: could not find function "geom_image"
+2017-07-28T15:14:59.452446+00:00 shinyapps[200315]:       9: tryCatchList
+2017-07-28T15:14:59.452449+00:00 shinyapps[200315]:       2: eval.parent
+2017-07-28T15:15:09.925305+00:00 shinyapps[200315]: Warning: Error in geom_image: could not find function "geom_image"
+2017-07-28T15:15:09.946037+00:00 shinyapps[200315]: Stack trace (innermost first):
+2017-07-28T15:15:09.946042+00:00 shinyapps[200315]:      13: runApp
+2017-07-28T15:15:09.946039+00:00 shinyapps[200315]:     111: renderPlot [/srv/connect/apps/nbashiny/server.R#20]
+2017-07-28T15:15:09.946040+00:00 shinyapps[200315]:     101: <reactive:plotObj>
+2017-07-28T15:15:09.946045+00:00 shinyapps[200315]:       5: eval
+2017-07-28T15:15:09.946043+00:00 shinyapps[200315]:       9: tryCatchList
+2017-07-28T15:15:09.946044+00:00 shinyapps[200315]:       7: connect$retry
+2017-07-28T15:15:09.946040+00:00 shinyapps[200315]:      90: plotObj
+2017-07-28T15:15:09.946042+00:00 shinyapps[200315]:      12: fn
+2017-07-28T15:15:09.946041+00:00 shinyapps[200315]:      88: output$scatterplot
+2017-07-28T15:15:09.946046+00:00 shinyapps[200315]:       3: eval
+2017-07-28T15:15:09.946046+00:00 shinyapps[200315]:       1: local
+2017-07-28T15:15:09.946045+00:00 shinyapps[200315]:       4: eval
+2017-07-28T15:15:09.946044+00:00 shinyapps[200315]:       8: tryCatch
+2017-07-28T15:15:09.946043+00:00 shinyapps[200315]:      10: tryCatchOne
+2017-07-28T15:15:09.946046+00:00 shinyapps[200315]:       2: eval.parent
+2017-07-28T15:15:09.946045+00:00 shinyapps[200315]:       6: eval
+2017-07-28T15:15:09.946041+00:00 shinyapps[200315]:      89: origRenderFunc
+2017-07-28T15:15:09.946043+00:00 shinyapps[200315]:      11: doTryCatch
+2017-07-29T00:14:06.165454+00:00 shinyapps[200315]: Server version: 1.5.0-3
+2017-07-29T00:14:06.165477+00:00 shinyapps[200315]: LANG: en_US.UTF-8
+2017-07-29T00:14:06.165479+00:00 shinyapps[200315]: R version: 3.4.1
+2017-07-29T00:14:06.165481+00:00 shinyapps[200315]: shiny version: 1.0.3
+2017-07-29T00:14:06.165482+00:00 shinyapps[200315]: knitr version: NA
+2017-07-29T00:14:06.165482+00:00 shinyapps[200315]: jsonlite version: 1.5
+2017-07-29T00:14:06.165481+00:00 shinyapps[200315]: rmarkdown version: NA
+2017-07-29T00:14:06.165502+00:00 shinyapps[200315]: RJSONIO version: NA
+2017-07-29T00:14:06.165503+00:00 shinyapps[200315]: htmltools version: 0.3.6
+2017-07-29T00:14:06.344118+00:00 shinyapps[200315]: Using jsonlite for JSON processing
+2017-07-29T00:14:06.437734+00:00 shinyapps[200315]: Shiny cannot use on-disk bookmarking
+2017-07-29T00:14:06.437883+00:00 shinyapps[200315]: 
+2017-07-29T00:14:06.437885+00:00 shinyapps[200315]: Starting R with process ID: '17'
+2017-07-29T00:14:06.468934+00:00 shinyapps[200315]: 
+2017-07-29T00:14:06.468942+00:00 shinyapps[200315]: Listening on http://127.0.0.1:34527
+2017-07-29T00:14:18.105935+00:00 shinyapps[200315]: Warning: Error in geom_image: could not find function "geom_image"
+2017-07-29T00:14:18.110929+00:00 shinyapps[200315]:     111: renderPlot [/srv/connect/apps/nbashiny/server.R#20]
+2017-07-29T00:14:18.110928+00:00 shinyapps[200315]: Stack trace (innermost first):
+2017-07-29T00:14:18.110931+00:00 shinyapps[200315]:     101: <reactive:plotObj>
+2017-07-29T00:14:18.110931+00:00 shinyapps[200315]:      90: plotObj
+2017-07-29T00:14:18.110933+00:00 shinyapps[200315]:      12: fn
+2017-07-29T00:14:18.110934+00:00 shinyapps[200315]:       9: tryCatchList
+2017-07-29T00:14:18.110933+00:00 shinyapps[200315]:      11: doTryCatch
+2017-07-29T00:14:18.110931+00:00 shinyapps[200315]:      89: origRenderFunc
+2017-07-29T00:14:18.110933+00:00 shinyapps[200315]:      10: tryCatchOne
+2017-07-29T00:14:18.110932+00:00 shinyapps[200315]:      88: output$scatterplot
+2017-07-29T00:14:18.110932+00:00 shinyapps[200315]:      13: runApp
+2017-07-29T00:14:18.110934+00:00 shinyapps[200315]:       8: tryCatch
+2017-07-29T00:14:18.110935+00:00 shinyapps[200315]:       7: connect$retry
+2017-07-29T00:14:18.110936+00:00 shinyapps[200315]:       4: eval
+2017-07-29T00:14:18.110935+00:00 shinyapps[200315]:       6: eval
+2017-07-29T00:14:18.110935+00:00 shinyapps[200315]:       5: eval
+2017-07-29T00:14:18.110936+00:00 shinyapps[200315]:       3: eval
+2017-07-29T00:14:18.110936+00:00 shinyapps[200315]:       2: eval.parent
+2017-07-29T00:14:18.110937+00:00 shinyapps[200315]:       1: local
+2017-08-01T12:31:01.227652+00:00 shinyapps[200315]: Server version: 1.5.0-3
+2017-08-01T12:31:01.227685+00:00 shinyapps[200315]: LANG: en_US.UTF-8
+2017-08-01T12:31:01.227687+00:00 shinyapps[200315]: R version: 3.4.1
+2017-08-01T12:31:01.227689+00:00 shinyapps[200315]: shiny version: 1.0.3
+2017-08-01T12:31:01.227689+00:00 shinyapps[200315]: knitr version: NA
+2017-08-01T12:31:01.227689+00:00 shinyapps[200315]: rmarkdown version: NA
+2017-08-01T12:31:01.227689+00:00 shinyapps[200315]: jsonlite version: 1.5
+2017-08-01T12:31:01.227690+00:00 shinyapps[200315]: RJSONIO version: NA
+2017-08-01T12:31:01.227711+00:00 shinyapps[200315]: htmltools version: 0.3.6
+2017-08-01T12:31:01.451803+00:00 shinyapps[200315]: Using jsonlite for JSON processing
+2017-08-01T12:31:01.547146+00:00 shinyapps[200315]: Shiny cannot use on-disk bookmarking
+2017-08-01T12:31:01.547292+00:00 shinyapps[200315]: 
+2017-08-01T12:31:01.547294+00:00 shinyapps[200315]: Starting R with process ID: '18'
+2017-08-01T12:31:01.581899+00:00 shinyapps[200315]: 
+2017-08-01T12:31:01.581901+00:00 shinyapps[200315]: Listening on http://127.0.0.1:39926
+2017-08-01T12:31:13.482817+00:00 shinyapps[200315]: Warning: Error in geom_image: could not find function "geom_image"
+2017-08-01T12:31:13.487170+00:00 shinyapps[200315]: Stack trace (innermost first):
+2017-08-01T12:31:13.487171+00:00 shinyapps[200315]:     111: renderPlot [/srv/connect/apps/nbashiny/server.R#20]
+2017-08-01T12:31:13.487173+00:00 shinyapps[200315]:      90: plotObj
+2017-08-01T12:31:13.487172+00:00 shinyapps[200315]:     101: <reactive:plotObj>
+2017-08-01T12:31:13.487173+00:00 shinyapps[200315]:      89: origRenderFunc
+2017-08-01T12:31:13.487175+00:00 shinyapps[200315]:      12: fn
+2017-08-01T12:31:13.487173+00:00 shinyapps[200315]:      88: output$scatterplot
+2017-08-01T12:31:13.487175+00:00 shinyapps[200315]:      11: doTryCatch
+2017-08-01T12:31:13.487174+00:00 shinyapps[200315]:      13: runApp
+2017-08-01T12:31:13.487175+00:00 shinyapps[200315]:      10: tryCatchOne
+2017-08-01T12:31:13.487176+00:00 shinyapps[200315]:       9: tryCatchList
+2017-08-01T12:31:13.487176+00:00 shinyapps[200315]:       8: tryCatch
+2017-08-01T12:31:13.487176+00:00 shinyapps[200315]:       7: connect$retry
+2017-08-01T12:31:13.487177+00:00 shinyapps[200315]:       6: eval
+2017-08-01T12:31:13.487177+00:00 shinyapps[200315]:       5: eval
+2017-08-01T12:31:13.487178+00:00 shinyapps[200315]:       4: eval
+2017-08-01T12:31:13.487178+00:00 shinyapps[200315]:       2: eval.parent
+2017-08-01T12:31:13.487178+00:00 shinyapps[200315]:       3: eval
+2017-08-01T12:31:13.487178+00:00 shinyapps[200315]:       1: local
+2017-08-01T12:31:20.555655+00:00 shinyapps[200315]: Warning: Error in geom_image: could not find function "geom_image"
+2017-08-01T12:31:20.576561+00:00 shinyapps[200315]: Stack trace (innermost first):
+2017-08-01T12:31:20.576563+00:00 shinyapps[200315]:     111: renderPlot [/srv/connect/apps/nbashiny/server.R#20]
+2017-08-01T12:31:20.576564+00:00 shinyapps[200315]:     101: <reactive:plotObj>
+2017-08-01T12:31:20.576567+00:00 shinyapps[200315]:      10: tryCatchOne
+2017-08-01T12:31:20.576564+00:00 shinyapps[200315]:      90: plotObj
+2017-08-01T12:31:20.576565+00:00 shinyapps[200315]:      89: origRenderFunc
+2017-08-01T12:31:20.576565+00:00 shinyapps[200315]:      88: output$scatterplot
+2017-08-01T12:31:20.576566+00:00 shinyapps[200315]:      13: runApp
+2017-08-01T12:31:20.576566+00:00 shinyapps[200315]:      11: doTryCatch
+2017-08-01T12:31:20.576568+00:00 shinyapps[200315]:       8: tryCatch
+2017-08-01T12:31:20.576567+00:00 shinyapps[200315]:       9: tryCatchList
+2017-08-01T12:31:20.576566+00:00 shinyapps[200315]:      12: fn
+2017-08-01T12:31:20.576569+00:00 shinyapps[200315]:       5: eval
+2017-08-01T12:31:20.576568+00:00 shinyapps[200315]:       7: connect$retry
+2017-08-01T12:31:20.576569+00:00 shinyapps[200315]:       4: eval
+2017-08-01T12:31:20.576571+00:00 shinyapps[200315]:       2: eval.parent
+2017-08-01T12:31:20.576572+00:00 shinyapps[200315]:       1: local
+2017-08-01T12:31:20.576568+00:00 shinyapps[200315]:       6: eval
+2017-08-01T12:31:20.576569+00:00 shinyapps[200315]:       3: eval
+2017-08-01T12:31:22.028979+00:00 shinyapps[200315]:      88: output$scatterplot
+2017-08-01T12:31:22.028985+00:00 shinyapps[200315]:       2: eval.parent
+2017-08-01T12:31:22.023350+00:00 shinyapps[200315]: Warning: Error in geom_image: could not find function "geom_image"
+2017-08-01T12:31:22.028978+00:00 shinyapps[200315]:      89: origRenderFunc
+2017-08-01T12:31:22.028975+00:00 shinyapps[200315]: Stack trace (innermost first):
+2017-08-01T12:31:22.028977+00:00 shinyapps[200315]:     111: renderPlot [/srv/connect/apps/nbashiny/server.R#20]
+2017-08-01T12:31:22.028983+00:00 shinyapps[200315]:       6: eval
+2017-08-01T12:31:22.028978+00:00 shinyapps[200315]:     101: <reactive:plotObj>
+2017-08-01T12:31:22.028980+00:00 shinyapps[200315]:      12: fn
+2017-08-01T12:31:22.028985+00:00 shinyapps[200315]:       1: local
+2017-08-01T12:31:22.028978+00:00 shinyapps[200315]:      90: plotObj
+2017-08-01T12:31:22.028985+00:00 shinyapps[200315]:       3: eval
+2017-08-01T12:31:22.028980+00:00 shinyapps[200315]:      13: runApp
+2017-08-01T12:31:22.028984+00:00 shinyapps[200315]:       4: eval
+2017-08-01T12:31:22.028981+00:00 shinyapps[200315]:      11: doTryCatch
+2017-08-01T12:31:22.028981+00:00 shinyapps[200315]:      10: tryCatchOne
+2017-08-01T12:31:22.028982+00:00 shinyapps[200315]:       9: tryCatchList
+2017-08-01T12:31:22.028983+00:00 shinyapps[200315]:       5: eval
+2017-08-01T12:31:22.028982+00:00 shinyapps[200315]:       8: tryCatch
+2017-08-01T12:31:22.028982+00:00 shinyapps[200315]:       7: connect$retry

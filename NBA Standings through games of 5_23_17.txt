@@ -1,0 +1,17 @@
+﻿          Team          W  L +/-   GB  PCT               Team          W  L +/-   GB  PCT
+  1 BostonCeltics       53 29  12    - .646    1 GSWarriors           67 15  26    - .817 
+  2 ClevelandCavaliers  51 31  10  2.0 .622    2 SanAntonioSpurs      61 21  20  6.0 .744 
+  3 TorontoRaptors      51 31  10  2.0 .622    3 HoustonRockets       55 27  14 12.0 .671 
+  4 WashingtonWizards   49 33   8  4.0 .598    4 LAClippers           51 31  10 16.0 .622 
+  5 AtlantaHawks        43 39   2 10.0 .524    5 UtahJazz             51 31  10 16.0 .622 
+  6 IndianaPacers       42 40   1 11.0 .512    6 OklahomaCityThunder  47 35   6 20.0 .573 
+  7 MilwaukeeBucks      42 40   1 11.0 .512    7 MemphisGrizzlies     43 39   2 24.0 .524 
+  8 MiamiHeat           41 41   0 12.0 .500    8 PortlandTrailBlazers 41 41   0 26.0 .500 
+
+  9 ChicagoBulls        41 41   0 12.0 .500    9 DenverNuggets        40 42  -1 27.0 .488 
+ 10 DetroitPistons      37 45  -4 16.0 .451   10 NOrleansPelicans     34 48  -7 33.0 .415 
+ 11 CharlotteHornets    36 46  -5 17.0 .439   11 DallasMavericks      33 49  -8 34.0 .402 
+ 12 NYKnicks            31 51 -10 22.0 .378   12 SacramentoKings      32 50  -9 35.0 .390 
+ 13 OrlandoMagic        29 53 -12 24.0 .354   13 MinnesotaT-wolves    31 51 -10 36.0 .378 
+ 14 Philadelphia76ers   28 54 -13 25.0 .341   14 LALakers             26 56 -15 41.0 .317 
+ 15 BrooklynNets        20 62 -21 33.0 .244   15 PhoenixSuns          24 58 -17 43.0 .293 

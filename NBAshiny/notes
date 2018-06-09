@@ -1,0 +1,14 @@
+use tabsetpanel() to make multiple tabs for different analysis, maybe use navlists?
+http://shiny.rstudio.com/articles/layout-guide.html
+
+#1
+table for players stats (done)
+table for player advanced stats(done)
+table for teams(done)
+
+#2 
+Visualize correlation between PER & team winning percentage(done)
+
+#3
+
+

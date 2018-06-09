@@ -1,0 +1,512 @@
+group_by(PS) %>%
+summarise(var(PTS), var(OR), var(TR), var(AS), var(ST), var(BK), var(TO))
+RD_Player_and_Teams %>%
+group_by(PS) %>%
+summarise(sd(PTS), sd(OR), sd(TR), sd(AS), sd(ST), sd(BK), sd(TO))
+View(season_advanced_stats)
+View(season_advanced_stats)
+library(dplyr)
+library(ggplot2)
+season_advanced_stats$Player = str_to_lower(season_advanced_stats$Player)
+season_advanced_stats$Player = gsub("\\\\.*", "", season_advanced_stats$Player)
+library(stringr)
+season_advanced_stats$Player = str_to_lower(season_advanced_stats$Player)
+season_advanced_stats$Player = gsub("\\\\.*", "", season_advanced_stats$Player)
+View(season_advanced_stats)
+unique(season_advanced_stats$Pos)
+season_advanced_stats %>%
+group_by(Pos) %>%
+arrange(Per) %>%
+season_advanced_stats %>%
+group_by(Pos) %>%
+arrange(Per)
+season_advanced_stats %>%
+group_by(Pos) %>%
+arrange(PER)
+?arrange
+season_advanced_stats %>%
+filter(Tm != "TOT" & Mp > 200) %>%
+group_by(Pos) %>%
+select(Player, Pos, Tm, PER) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Pos) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Pos) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+summarise(sum(Tm))
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+summarise(sum(Tm)) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+summarise(sum(PER)) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER))
+summarise(sum(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Pos) %>%
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+unique(season_advanced_stats$Pos)
+season_advanced_stats[Pos == "PF-C",]
+season_advanced_stats["Pos" == "PF-C",]
+season_advanced_stats[,"Pos" == "PF-C"]
+season_advanced_stats$Pos == "PF-C"
+unique(season_advanced_stats$Pos)
+season_advanced_stats["Pos" == "C", ]
+season_advanced_stats[Pos == "C", ]
+season_advanced_stats[Pos, ]
+season_advanced_stats["Pos", ]
+season_advanced_stats[season_advanced_stats$Pos == "PF-C", ]
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Player)
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+arrange(desc(PER))
+View(Season_Standings)
+View(ScoringStatistics)
+View(RD_Team)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm)
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+summarise(max(PER)) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER)) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Tm) %>%
+arrange(desc(PER)) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Player, Tm) %>%
+arrange(desc(PER)) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Player, Tm) %>%
+summarise(max(PER))%>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Player, Tm) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Tm) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+group_by(Tm) %>%
+select(Player, Tm, PER) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+summarise(max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+summarise(Player, max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+summarise(group_by(Tm, Player), max(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+arrange(desc(PER))
+?first
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+arrange(desc(PER)) %>%
+filter(first(Tm))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+arrange(desc(PER)) %>%
+group_by(Tm, top_n())
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+arrange(desc(PER))
+top_n(Tm)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+arrange(desc(PER))%>%
+top_n(Tm)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+arrange(desc(PER))%>%
+select(top_n(Tm))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+arrange(desc(PER))%>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+top_n()
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+arrange(desc(PER))%>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+top_n(n=1)
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+arrange(desc(PER))%>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+top_n(n=1)
+View(test)
+dim(test)
+unique(test)
+unique(test$Tm)
+len(unique(test$Tm))
+length(unique(test$Tm))
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+arrange(desc(PER))%>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+summarise(top_n(n=1))
+?top_n
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+arrange(desc(PER))%>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+summarise(top_n(n=1, PER))
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+arrange(desc(PER))%>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+top_n(n=1)
+dim(test)
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm, PER) %>%
+top_n(n=1)
+dim(test)
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+top_n(n=1)
+dim(test)
+View(season_advanced_stats)
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+arrange(Tm)
+top_n(n=1)
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+arrange(Tm) %>%
+top_n(n=1)
+dim(test)
+View(test)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm, Pos) %>%
+arrange(Tm) %>%
+top_n(n=1)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, Pos, PER) %>%
+group_by(Tm, Pos) %>%
+arrange(Tm) %>%
+top_n(n=1)
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, Pos, PER) %>%
+group_by(Tm, Pos) %>%
+arrange(Tm) %>%
+top_n(n=1)
+View(test)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+test = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, PER) %>%
+group_by(Pos) %>%
+arrange(PER) %>%
+top_n(n=1)
+View(test)
+rm(test)
+View(RD_Players)
+?cor
+cor(RD_Players$Min, RD_Players$TR)
+plot(RD_Players$Min, RD_Players$TR, main="Scatterplot")
+cor(RD_Players$Min, RD_Players$PTS)
+plot(RD_Players$Min, RD_Players$PTS, main="Scatterplot")
+cor(RD_Players$Min, RD_Players$AS)
+plot(RD_Players$Min, RD_Players$AS, main="Scatterplot")
+cor(RD_Players$Min, RD_Players$ST)
+plot(RD_Players$Min, RD_Players$ST, main="Scatterplot")
+source('C:/Users/Keenan/datascience/nycdsa/DA_&_DV_with_R/NBA analysis/analysis.R', echo=TRUE)
+cor(RD_Players$Min, RD_Players$BK)
+plot(RD_Players$Min, RD_Players$BK, main="Scatterplot")
+cor(RD_Players$Min, RD_Players$TO)
+plot(RD_Players$Min, RD_Players$TO, main="Scatterplot")
+?summary
+boxplot(PTS~Team, RD_Players)
+RD_Players[RD_Players$Team == "na", ]
+boxplot(PTS~PS, RD_Players)
+summary(RD_Players$PTS)
+cor(RD_Players$Min, RD_Players$OR)
+plot(RD_Players$Min, RD_Players$OR, main="Scatterplot")
+sd(RD_Players$PTS)
+var(RD_Players$PTS)
+hist(RD_Players$PTS)
+lines(density(RD_Players$PTS))
+lines(density(RD_Players$PTS))
+hist(RD_Players$PTS)
+summary(RD_Players$OR)
+sd(RD_Players$OR)
+hist(RD_Players$OR)
+boxplot(OR~PS, RD_Players)
+boxplot(OR~Team, RD_Players)
+summary(RD_Players$TR)
+sd(RD_Players$TR)
+hist(RD_Players$TR)
+boxplot(TR~PS, RD_Players)
+boxplot(TR~Team, RD_Players)
+summary(RD_Players$AS)
+sd(RD_Players$AS)
+hist(RD_Players$AS)
+boxplot(AS~PS, RD_Players)
+boxplot(AS~Team, RD_Players)
+summary(RD_Players$ST)
+sd(RD_Players$ST)
+hist(RD_Players$ST)
+boxplot(ST~PS, RD_Players)
+boxplot(ST~Team, RD_Players)
+summary(RD_Players$TO)
+sd(RD_Players$TO)
+hist(RD_Players$TO)
+boxplot(TO~PS, RD_Players)
+boxplot(TO~Team, RD_Players)
+View(ScoringStatistics)
+View(RD_Player_and_Teams)
+View(RD_Players)
+RD_Players %>%
+select(Player, Team, PS, PTS) %>%
+arrange(PTS) %>%
+top_n(n=5)
+RD_Players %>%
+select(Player, Team, PS, PTS) %>%
+arrange(desc(PTS)) %>%
+top_n(n=5)
+RD_Players %>%
+select(Player, Team, PS, PTS) %>%
+arrange(desc(PTS)) %>%
+top_n(n=30)
+RD_Players %>%
+select(Player, Team, PS, TO) %>%
+arrange(desc(TO)) %>%
+top_n(n=30)
+RD_Players %>%
+select(Player, Team, PS, TR) %>%
+arrange(desc(TR)) %>%
+top_n(n=30)
+View(RD_Team)
+?sum
+mutate()
+?mutate
+RD_Team %>%
+select(team, won, lost) %>%
+group_by(team)
+mutate(win_percentage = won/sum(won, lost))
+RD_Team %>%
+select(team, won, lost) %>%
+group_by(team)
+mutate(win_percentage = won/sum(won, lost)
+RD_Team %>%
+select(team, won, lost) %>%
+group_by(team) %>%
+mutate(win_percentage = won/sum(won, lost))
+RD_Team %>%
+select(team, won, lost) %>%
+group_by(team) %>%
+mutate(win_percentage = won/sum(won, lost)) %>%
+arrange(desc(win_percentage))
+View(RD_Team)
+?transmute
+hollinger_stats = read.csv('hollinger_stats.csv', header = TRUE, stringsAsFactors = FALSE, fill = FALSE)
+hollinger_stats = hollinger_stats[,-c(1)]
+hollinger_stats$TEAM = trimws(hollinger_stats$TEAM, which = c("both"))
+View(hollinger_stats)
+team_winning_perc = RD_Team %>%
+select(team, won, lost) %>%
+group_by(team) %>%
+mutate(win_percentage = won/sum(won, lost)) %>%
+arrange(desc(win_percentage))
+team_winning_perc
+library(dplyr)
+team_winning_perc = RD_Team %>%
+select(team, won, lost) %>%
+group_by(team) %>%
+mutate(win_percentage = won/sum(won, lost)) %>%
+arrange(desc(win_percentage))
+team_winning_perc
+team_PER = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+arrange(desc(PER)) %>%
+summarise(sum(PER))
+team_PER
+View(team_PER)
+View(team_winning_perc)
+team_winning_perc = RD_Team %>%
+select(team, won, lost) %>%
+group_by(team) %>%
+mutate(win_percentage = won/sum(won, lost)) %>%
+arrange(desc(team))
+team_winning_perc
+View(team_PER)
+team_PER = season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+group_by(Tm) %>%
+summarise(sum(PER))
+team_PER
+View(team_PER)
+View(team_winning_perc)
+team_winning_perc = RD_Team %>%
+select(team, won, lost) %>%
+group_by(team) %>%
+mutate(win_percentage = won/sum(won, lost)) %>%
+arrange(team)
+team_winning_perc
+install.packages("ggimage")
+?ggimage
+library(dplyr)
+library(ggplot2)
+library(stringr)
+summary(RD_Player_and_Teams)
+#1.what is the correlation between minutes and primary stats?
+cor(RD_Players$Min, RD_Players$PTS)
+plot(RD_Players$Min, RD_Players$PTS, main="Scatterplot")
+cor(RD_Players$Min, RD_Players$TO)
+plot(RD_Players$Min, RD_Players$TO, main="Scatterplot")
+RD_Player_and_Teams %>%
+group_by(Team) %>%
+summarise(mean(PTS), mean(OR), mean(TR), mean(AS), mean(ST), mean(BK), mean(TO))
+RD_Player_and_Teams %>%
+group_by(Team) %>%
+summarise(sd(PTS), sd(OR), sd(TR), sd(AS), sd(ST), sd(BK), sd(TO))
+RD_Player_and_Teams %>%
+filter(!PS == "??") %>%
+group_by(PS) %>%
+summarise(mean(PTS), mean(OR), mean(TR), mean(AS), mean(ST), mean(BK), mean(TO))
+#3.what players have the best PER's in the league per team? per position?
+#per postion on team?
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, MP, PER) %>%
+arrange(desc(PER))
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Pos, Tm, PER) %>%
+group_by(Pos) %>%
+arrange(PER) %>%
+top_n(n=1)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, PER) %>%
+group_by(Tm) %>%
+arrange(Tm) %>%
+top_n(n=1)
+season_advanced_stats %>%
+filter(Tm != "TOT" & MP > 200) %>%
+select(Player, Tm, Pos, PER) %>%
+group_by(Tm, Pos) %>%
+arrange(Tm) %>%
+top_n(n=1)

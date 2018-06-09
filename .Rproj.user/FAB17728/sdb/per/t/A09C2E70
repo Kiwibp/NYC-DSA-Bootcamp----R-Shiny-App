@@ -1,0 +1,18 @@
+{
+    "contents" : "Workflow\n\nshort (< 1 week)\nresearch important fantasy stats (done)\noutline questions I'd like to answer (done)\n\nlong (2 weeks)\ncreate code for data analysis\n  -scrape website for advanced stats (done)\n  -homoegenize datasets for easy analysis/manipulation(done)\n  -dplyr(done)\n  -ggplot2(done)\n  \ncreate Shiny interactive app\n  -UI\n  -Server\n\nshort (< 2 weeks)\nget feedback and make adjustments\nshare with Sam\n",
+    "created" : 1499264923569.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2288108496",
+    "id" : "A09C2E70",
+    "lastKnownWriteTime" : 1500308938,
+    "path" : "C:/Users/Keenan/datascience/nycdsa/DA_&_DV_with_R/NBA analysis/workflow",
+    "project_path" : "workflow",
+    "properties" : {
+        "tempName" : "Untitled3"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "type" : "text"
+}
